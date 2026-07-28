@@ -140,3 +140,104 @@ in the SAME ORDER as the items below:
 
 {items_text}
 """
+
+
+def itr_prompt(raw_text):
+    return f"""
+You are extracting data from OCR'd text of a Philippine BIR Income Tax Return (ITR)
+or Certificate of Tax Exemption. The OCR text may be noisy.
+
+Return ONLY valid JSON in this exact schema:
+
+{{
+    "taxpayer_name": "",
+    "annual_income": null,
+    "tax_year": "",
+    "document_type": "itr|tax_exemption|unknown",
+    "confidence": "high|medium|low"
+}}
+
+Rules:
+- annual_income: total gross income or net taxable income in PHP (number only, no currency symbol).
+- If income cannot be determined, annual_income must be null — do not guess.
+- document_type: "tax_exemption" if it is a Certificate of Tax Exemption.
+
+OCR TEXT:
+{raw_text}
+"""
+
+
+def indigency_prompt(raw_text):
+    return f"""
+You are extracting data from OCR'd text of a Philippine Barangay Certificate of Indigency.
+The OCR text may be noisy.
+
+Return ONLY valid JSON in this exact schema:
+
+{{
+    "full_name": "",
+    "barangay": "",
+    "municipality": "",
+    "province": "",
+    "issue_date": "",
+    "is_valid_indigency": false,
+    "confidence": "high|medium|low"
+}}
+
+Rules:
+- is_valid_indigency: true only if the document clearly certifies indigency/financial need.
+- Do not invent names or places not supported by the text.
+
+OCR TEXT:
+{raw_text}
+"""
+
+
+def identity_prompt(raw_text):
+    return f"""
+You are extracting data from OCR'd text of a Philippine National ID (PhilID),
+PSA Birth Certificate, or NSO Birth Certificate. The OCR text may be noisy.
+
+Return ONLY valid JSON in this exact schema:
+
+{{
+    "full_name": "",
+    "birth_date": "",
+    "birth_place": "",
+    "citizenship": "",
+    "document_type": "philid|birth_certificate|unknown",
+    "confidence": "high|medium|low"
+}}
+
+Rules:
+- Do not invent personal details not reasonably supported by the OCR text.
+
+OCR TEXT:
+{raw_text}
+"""
+
+
+def academic_record_prompt(raw_text):
+    return f"""
+You are extracting academic record data from OCR'd text of a Philippine Certificate of
+Registration (COR) or Transcript of Records (TOR). The OCR text may be noisy.
+
+Return ONLY valid JSON in this exact schema:
+
+{{
+    "gwa": null,
+    "year_level": "",
+    "strand_or_course": "",
+    "school_name": "",
+    "subjects": [{{"name": "", "grade": null}}],
+    "confidence": "high|medium|low"
+}}
+
+Rules:
+- gwa: general weighted average if explicitly stated, or computed from readable grades.
+- year_level examples: "Grade 12", "1st year", "3rd year"
+- If GWA cannot be determined, gwa must be null — do not guess.
+
+OCR TEXT:
+{raw_text}
+"""

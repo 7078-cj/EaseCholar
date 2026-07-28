@@ -17,7 +17,7 @@ export default function MatchResultsList({ results, eligibleCount, totalChecked 
             {eligibleCount} of {totalChecked} scholarships you're eligible for
         </p>
         {results.map((r) => (
-            <MatchResultCard key={r.scholarship_id} result={r} />
+            <MatchResultCard key={r.scholarship.id} result={r} />
         ))}
         </div>
     );

@@ -1,6 +1,7 @@
 import logging
 
 from ..utils import generate, tips_phrasing_prompt
+from ..serializers import ScholarshipSerializer
 
 logger = logging.getLogger(__name__)
 
@@ -109,11 +110,10 @@ def score_scholarship(student, scholarship):
     match_score = round((passed_checks / total_checks) * 100, 1) if total_checks else 0.0
     eligible = total_checks > 0 and not hard_fail
 
+    scholarship_data = ScholarshipSerializer(scholarship).data
+
     return {
-        "scholarship_id": scholarship.id,
-        "name": scholarship.name,
-        "provider": scholarship.provider,
-        "link": scholarship.link,
+        "scholarship": scholarship_data,
         "eligible": eligible,
         "match_score": match_score,
         "reasons": reasons,
@@ -146,7 +146,10 @@ def rank_scholarships(student, scholarships, use_llm_tips=True):
 
 
 def _attach_friendly_tips(results):
-    gaps = [{"scholarship_name": r["name"], "tips": r["tips"]} for r in results]
+    gaps = [
+        {"scholarship_name": r["scholarship"]["name"], "tips": r["tips"]}
+        for r in results
+    ]
 
     prompt = tips_phrasing_prompt(gaps)
     result = generate(prompt)
