@@ -1,0 +1,82 @@
+[
+    {
+        "name": "CHED Merit Scholarship Program (CMSP)",
+        "category": "Academic Merit",
+        "provider": "CHED",
+        "criteria": {
+        "min_gwa_percent": 93,
+        "max_family_income": 500000,
+        "year_levels": ["1st year"],
+        "course_keywords": ["priority course"],
+        "region": "any"
+        },
+        "benefits": "Tuition support, stipend, book and connectivity allowance",
+        "requirements": [
+        "PSA-issued Birth Certificate",
+        "Form 138 / SF9",
+        "Latest Income Tax Return (ITR) of parents/guardian",
+        "Certificate of Enrollment"
+        ],
+        "link": "https://ched.gov.ph/merit-scholarship/"
+    },
+    {
+        "name": "Senator Vicente Tito Sotto Scholarship 2026",
+        "category": "Government / Legislative Grant",
+        "provider": "Office of Sen. Vicente Sotto",
+        "criteria": {
+        "min_gwa_percent": 85,
+        "max_family_income": null,
+        "year_levels": ["3rd year", "4th year"],
+        "course_keywords": [],
+        "region": "any"
+        },
+        "benefits": "Tuition Fee Scholarship Program",
+        "requirements": [],
+        "link": null
+    },
+    {
+        "name": "DOST-JLSS Scholarship 2026",
+        "category": "Government (DOST) / Science & Technology",
+        "provider": "DOST-SEI",
+        "criteria": {
+        "min_gwa_percent": null,
+        "max_family_income": null,
+        "year_levels": ["1st year"],
+        "course_keywords": ["science", "engineering", "technology", "mathematics", "IT", "computer"],
+        "region": "any"
+        },
+        "benefits": "Tuition (P40,000/yr), Learning Allowance (P10,000/yr), Living Allowance (P8,000/mo)",
+        "requirements": [],
+        "link": null
+    },
+    {
+        "name": "PHINMA National Scholarship 2026",
+        "category": "Private Institution",
+        "provider": "PHINMA Education",
+        "criteria": {
+        "min_gwa_percent": null,
+        "max_family_income": null,
+        "year_levels": ["any"],
+        "course_keywords": [],
+        "region": "any"
+        },
+        "benefits": "Monthly allowance, book + uniform allowance, Latin honors incentive",
+        "requirements": [],
+        "link": null
+    },
+    {
+        "name": "CHED ESTATISTIKOLAR",
+        "category": "Course-Specific",
+        "provider": "CHED",
+        "criteria": {
+        "min_gwa_percent": null,
+        "max_family_income": null,
+        "year_levels": ["3rd year", "4th year"],
+        "course_keywords": ["statistics"],
+        "region": "any"
+        },
+        "benefits": "Financial support for Statistics majors",
+        "requirements": [],
+        "link": null
+    }
+]

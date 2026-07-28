@@ -1,0 +1,483 @@
+[
+    {
+        "name": "Agricultural Competitiveness Enhancement Fund – Grants-in-Aid for Higher Education Program (ACEF-GIAHEP)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": 400000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year",
+                "5th year"
+            ],
+            "course_keywords": [
+                "agriculture",
+                "forestry",
+                "fisheries",
+                "veterinary medicine education",
+                "related agricultural education programs"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen",
+            "Graduating high school students; high school graduates; with earned college academic units relevant to the identified degree programs",
+            "Will enroll or currently enrolled in recognized programs of private higher education institutions or authorized programs of SUCs/LUCs in agriculture, forestry, fisheries, veterinary medicine education and related agricultural education programs",
+            "Combined annual gross income of parents/guardians not to exceed Four Hundred Thousand Pesos (₱400,000.00)",
+            "Preferably dependent of registered farmers and/or fisherfolks in Registry System for Basic Sectors in Agriculture (RSBSA) and other registry systems",
+            "Must not be a beneficiary of any government funded student financial assistance program",
+            "Must not be convicted of a crime involving moral turpitude",
+            "Certified true copy of Birth Certificate",
+            "For senior high school graduates – Form 138",
+            "For graduating senior high school students — duly certified true copy of grades for Grade 11 and 1st semester of Grade 12",
+            "For applicants with earned units in college — duly certified copy of grades for the latest semester/term attended"
+        ],
+        "link": "https://legacy.ched.gov.ph/acef-giahep/"
+    },
+    {
+        "name": "CASH GRANT TO MEDICAL STUDENTS ENROLLED IN STATE UNIVERSITIES AND COLLEGES (CGMS-SUCs)",
+        "category": "Cash Grant",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year",
+                "5th year"
+            ],
+            "course_keywords": [
+                "Doctor of Medicine"
+            ],
+            "region": "any"
+        },
+        "benefits": "tuition fee subsidy and financial assistance",
+        "requirements": [
+            "Filipino medical students, both new and continuing, who are enrolled in the Doctor of Medicine Program in Bicol University, Cagayan State University, Mariano Marcos State University, Mindanao State University, University of Northern Philippines, University of the Philippines Manila College of Medicine, University of the Philippines Manila School of Health Sciences, West Visayas State University",
+            "Applicant submits the accomplished CGMS-SUCs Application Form (Annex “A”)",
+            "Submit required documents before the start of academic year applied"
+        ],
+        "link": "https://legacy.ched.gov.ph/cgms-sucs/"
+    },
+    {
+        "name": "",
+        "category": "",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [],
+        "link": "https://legacy.ched.gov.ph/ched-visual-identity-guide/"
+    },
+    {
+        "name": "Scholarship Program for Coconut Farmers and their Families (CoScho)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": 80,
+            "max_family_income": 300000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year",
+                "5th year"
+            ],
+            "course_keywords": [
+                "agriculture",
+                "agricultural engineering",
+                "agribusiness management",
+                "agricultural economics",
+                "other courses identified by the PCA"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen",
+            "Graduating high school student/high school graduate with a general weighted average grade (GWA) of 80% or its equivalent or college student with earned academic units relevant to the degree programs identified by PCA with a GWA of 80% the previous semester or its equivalent",
+            "Pass the entry level requirements of identified State Universities and Colleges (SUCs)",
+            "Not be a recipient of any government-funded financial assistance program",
+            "Duly registered coconut farmer in the NCFRS or his/her dependent (only one family member shall be allowed to apply)",
+            "Must have a combined annual gross income of parents not exceeding ₱300,000.00",
+            "Birth Certificate issued by the Local Civil Registry or Philippine Statistics Authority (PSA)",
+            "For senior high school students – duly certified copy of the grades for Grade 11 and first semester for Grade 12",
+            "For senior high school graduates – form 138",
+            "For applicants with earned units or currently enrolled in college – duly Certified Copy of Grades for the latest semester/term attended",
+            "PCA Certification, issued by PCA Regional Office (PCA-RO) to NCFRS registered coconut farmers/farmworkers upon the endorsement of the PCA Provicial Office and/or Local Coconut Industry Development Councils (LCIDCs), small coconut farmers organizations, federations, and cooperatives",
+            "Certificate of Good Moral Character from the last school attended",
+            "Latest Income Tax Return (ITR) of applicant and/spouse/parents/guardians if employed",
+            "Certificate of Tax Exemption from the Bureau of Internal Revenue (BIR)",
+            "Certificate of No Income from BIR",
+            "Certificate of Indigency from their Barangay",
+            "Certificate/Case Study from Department of Social Welfare and Development (DSWD)",
+            "Notice of admission from the HEI with collegiate degree offerings",
+            "Proof that the student applicant belonged to special group/s (if applicable)",
+            "Original Barangay Certification that parents/guardians and siblings had never attended college/university (if applicable)"
+        ],
+        "link": "https://legacy.ched.gov.ph/coscho/"
+    },
+    {
+        "name": "CHED Scholarship Program for Future Statisticians (ESTATISTIKOLAR)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": 80,
+            "max_family_income": 500000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year"
+            ],
+            "course_keywords": [
+                "Bachelor of Science (BS) in Statistics",
+                "BS in Applied Statistics",
+                "programs identified by Philippine Statistics Authority (PSA)"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen",
+            "Graduate of a Senior High school in the Philippines with a minimum GWA of 85% or its equivalent",
+            "For second- to fourth-year college students, a minimum GWA of 80% or its equivalent",
+            "Combined annual gross income of parents or legal guardian should not exceed Five Hundred Thousand Pesos (PhP500,000.00)",
+            "Additional points for applicants belonging to special equity groups (Underprivileged and Homeless Citizens, Magna Carta Law for the poor, Persons with Disabilities (PWDs), Expanded Solo Parents Welfare Act, Senior Citizens, Indigenous Peoples (IPs), first-generation students)",
+            "Accomplished Application Form",
+            "Copy of Birth certificate issued by National Statistics Office (NSO) or Philippine Statistics Authority (PSA)",
+            "For senior high school graduate, a certified true copy of the Form 138 [Learner’s Progress Report card or School Form 9 (SF9)] duly signed by the registrar or an authorized representative of the senior high school attended",
+            "For second- to fourth-year college students, a certified true copy of Grades from last semester attended",
+            "Latest Income Tax Return (ITR) of parents or legal guardian",
+            "Certificate of Tax Exemption/Non-Filer issued by the Bureau of Internal Revenue (BIR)",
+            "Certified true copy of latest contract or proof of income for children of Overseas Filipino Workers (OFW) and Seafarers"
+        ],
+        "link": "https://legacy.ched.gov.ph/estatistikolar/"
+    },
+    {
+        "name": "CHED Merit Scholarship Program (CMSP)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": 93,
+            "max_family_income": 500000,
+            "year_levels": [
+                "1st year"
+            ],
+            "course_keywords": [
+                "National Priority Programs",
+                "Regional Priority Courses",
+                "Gender and Development (GAD) related courses"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino Citizen",
+            "Senior High school graduate with a minimum general weighted average (GWA) of 93% or its equivalent",
+            "Combined annual gross income of parents, or legal guardian should not exceed Five Hundred Thousand Pesos (PhP500,000.00)",
+            "Additional points for applicants belonging to special equity groups (Underprivileged and Homeless Citizens, Magna Carta Law for the poor, Persons with Disabilities (PWDs), Expanded Solo Parents Welfare Act, Senior Citizens, Indigenous Peoples (IPs), first-generation students)",
+            "Accomplished Online Application Form",
+            "Copy of Birth certificate issued by National Statistics Office (NSO) or Philippine Statistics Authority (PSA)",
+            "Certified true copy of Form 138 (Learner’s Progress Report or SF9), duly signed by the registrar or an authorized representative of the senior high school attended",
+            "Latest Income Tax Return (ITR) of parents or guardian"
+        ],
+        "link": "https://legacy.ched.gov.ph/merit-scholarship/"
+    },
+    {
+        "name": "CHED Medical Scholarship and Return Service (MSRS) Program",
+        "category": "Scholarship with Return Service",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": 450000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year",
+                "5th year"
+            ],
+            "course_keywords": [
+                "Doctor of Medicine"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen residing in the Philippines",
+            "Graduating student or a graduate of an appropriate undergraduate program identified as a prerequisite for a Doctor of Medicine degree and currently enrolled in Doctor of Medicine degree, from any HEIs duly recognized by the CHED, including a direct entrant to the integrated liberal arts and medicine (INTARMED) program",
+            "Obtained a National Medical Admission Test (NMAT) score mandated by the CHED and required by the SUC/PHEI",
+            "Passed the entrance examinations and complied with other related requirements for admission into a Doctor of Medicine degree in any of the participating SUCs/PHEIs",
+            "Willing to undertake the mandatory return service",
+            "Preferably residing in municipality without government physicians",
+            "Preferably residing in Geographically Isolated and Disadvantaged Areas (GIDA) or from the top twenty percent (20%) provinces and/or municipalities as identified by the PSA, calamity-prone and conflict areas",
+            "Preferably residing in low-income class municipalities with high poverty incidence",
+            "Preferably belonging to the ethnic group or indigenous population/communities as certified by respective local government units and the National Commission on Indigenous Peoples (NCIP)",
+            "Preferably dependents of community health volunteers",
+            "Preferably those whose combined annual family income is less than Php450,000.00"
+        ],
+        "link": "https://legacy.ched.gov.ph/msrs/"
+    },
+    {
+        "name": "Scholarship Program for Future Medical Technologists and Pharmacists (MTP-SP)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": 80,
+            "max_family_income": 400000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year"
+            ],
+            "course_keywords": [
+                "Medical Technology",
+                "Medical Laboratory Science",
+                "Pharmacy"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen residing in the Philippines",
+            "Senior high school graduate from the Science, Technology, Engineering, and Mathematics (STEM) strand or students in the higher year levels of Medical Technology/Medical Laboratory Science or Pharmacy Programs with a general weighted average (GWA) of at least 80% or its equivalent",
+            "For incoming students, passed the entrance examinations and complied with other related requirements for admission into a bachelor degree of Medical Technology/Medical Laboratory Science or Pharmacy in the identified participating SUCs or PHEIs where the scholar intends to enroll",
+            "For continuing students, as long as they have complied with the academic requirements in the latest term/semester without any failed subjects preceding their scholarship application",
+            "Combined annual gross income of parent/s, guardian which does not exceed Four Hundred Thousand Pesos (Php 400,000.00), or in cases where the income exceeds Php 400,000.00 an applicant must present a written certification or medical findings of illness of a family member, or school certifications of two or more dependents enrolled in college",
+            "Photocopy of Birth certificate issued by the Local Civil Registry or Philippine Statistics Authority (PSA)",
+            "Duly certified true copy of Form 138 for incoming first-year students eligible for college or duly certified true copy of grades for the latest term/semester attended for applicants with earned units in college",
+            "Certificate of Low Income or Indigence from their Barangay",
+            "Certificate of Tax Exemption/Non-Filer from the Bureau of Internal Revenue (BIR)",
+            "Case Study Report from City/Municipal Social Welfare and Development Office",
+            "Latest Income Tax Return (ITR) of parent/s or guardian",
+            "Latest copy of contract or proof of income may be considered for children of Overseas Filipino Workers (OFW) and seafarers",
+            "Certifications and/or Identification Cards (IDs) issued by the appropriate offices or agencies (if applicable, for applicants belonging to IPs, residing in GIDAs or areas with IP communities, and belonging to the special group of persons)",
+            "Accomplished Scholarship Application Form (Annex A)",
+            "Accomplished Scholar’s Commitment to Render Service Obligation (Annex B)"
+        ],
+        "link": "https://legacy.ched.gov.ph/mtpsp/"
+    },
+    {
+        "name": "Scholarship Grant Program for Children and Dependents of Sugarcane Industry Workers and Small Sugarcane Farmers (SIDA-SGP)",
+        "category": "Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": 400000,
+            "year_levels": [
+                "1st year",
+                "2nd year",
+                "3rd year",
+                "4th year",
+                "5th year",
+                "Master's",
+                "Doctorate"
+            ],
+            "course_keywords": [
+                "agriculture",
+                "agricultural engineering and mechanics",
+                "chemical engineering",
+                "sugar technology",
+                "ladderized programs"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Filipino citizen",
+            "High school graduate or with earned college academic units relevant to the identified degree programs (Undergraduate Program)",
+            "Must pass the entry level requirements of identified SUC (Undergraduate Program)",
+            "Duly certified by SRA as Sugarcane Industry Workers and Small Sugarcane Farmers’ children and dependents (Undergraduate and Graduate Program)",
+            "Must have a combined annual gross income of parents/guardian not to exceed ₱400,000.00 (Undergraduate Program)",
+            "With related undergraduate degree program and must pass the entry level requirements of identified SUC for master and doctoral degree programs (Graduate Program)",
+            "Must have a combined annual gross income of parents/guardian/spouse not to exceed ₱500,000.00 (Graduate Program)",
+            "For senior high school students – duly certified copy of the grades for Grade 11 and first semester for Grade 12 (Undergraduate Program)",
+            "For lifelong learners eligible for college – High School Report Card (Undergraduate Program)",
+            "For applicants with earned units or currently enrolled in college – duly Certified Copy of Grades for the latest semester/term attended (Undergraduate Program)",
+            "For other applicants: ALS – duly certified copy of ALS Accreditation and Equivalency Test Passer Certificate; PEPT – duly certified copy of PEPT Certificate of Advancing to the next level (Undergraduate Program)",
+            "Certificate of Good Moral Character from the last school attended",
+            "Certification from SRA as children and dependents of sugarcane industry workers and small sugarcane farmers",
+            "Latest Income Tax Return (ITR) of applicant and/spouse/parents/guardians if employed",
+            "Certificate of Tax Exemption from the Bureau of Internal Revenue (BIR)",
+            "Certificate of No Income from BIR",
+            "Certificate of Indigency from the Barangay"
+        ],
+        "link": "https://legacy.ched.gov.ph/sida-sgp/"
+    },
+    {
+        "name": "Scholarships for Instructors’ Knowledge Advancement Program (SIKAP)",
+        "category": "Graduate Scholarship",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [
+                "Master's",
+                "Doctorate"
+            ],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "A Filipino citizen",
+            "A teaching or non-teaching personnel employed in any of the following HEIs on a full-time basis: Public or Private HEIs (excluding LUCs) that are institutionally recognized by CHED as Certified by the Office of Institutional Quality Assurance and Governance (OIQAG); An HEI located in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) that is duly recognized by the Ministry of Basic, Higher and Technical Education (MBHTE); or For Local University and Colleges (LUCs), LUCs with Institutional Recognition (IR) issued by CHED",
+            "Admitted or will enroll in graduate degree program within the term of application",
+            "Physically and mentally fit to undertake and complete the scholarship program",
+            "Not more than 50 years old within the next six (6) months from the date of application",
+            "Cleared of any pending obligations from all previously awarded grants or scholarships, including those in which you were engaged as a team member in research grants, or grants of similar nature as attested by a Clearance",
+            "Part of the SHEI’s manpower development plan, as attested by endorsement from Sending HEl",
+            "Willing to execute a Return Service Agreement with the SHEI",
+            "In good academic standing and not on extension of study at the time of application, if on-going student",
+            "If applying for Full-Time Study, have an approved full-time study leave without teaching/workload covering the entire scholarship period",
+            "If applying for Part-Time Study, have a permit to study from SHEI"
+        ],
+        "link": "https://legacy.ched.gov.ph/sikap/"
+    },
+    {
+        "name": "UniFAST",
+        "category": "Financial Assistance System",
+        "provider": "CHED",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [],
+        "link": "https://legacy.ched.gov.ph/unifast/"
+    },
+    {
+        "name": "",
+        "category": "",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [],
+        "link": "https://www.science-scholarships.ph/undergrad/"
+    },
+    {
+        "name": "",
+        "category": "",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [],
+        "link": "https://www.science-scholarships.ph/support/"
+    },
+    {
+        "name": "",
+        "category": "",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [],
+            "course_keywords": [],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [],
+        "link": "https://jlss.science-scholarships.ph/"
+    },
+    {
+        "name": "CAPACITY BUILDING PROGRAM IN SCIENCE AND MATHEMATICS EDUCATION (CBPSME)",
+        "category": "Graduate Scholarship",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [
+                "Master's",
+                "Doctorate"
+            ],
+            "course_keywords": [
+                "Mathematics Education",
+                "Science Education"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "DOST-SEI scholar-graduates",
+            "Graduate students with academic honors",
+            "Qualified science and mathematics faculty of Teacher Education Institutions (TEIs) and consortium member-universities",
+            "Pursuit of Master’s and Doctoral degrees in Science and Mathematics Education"
+        ],
+        "link": "https://cbpsme.science-scholarships.ph/"
+    },
+    {
+        "name": "ENGINEERING RESEARCH AND DEVELOPMENT FOR TECHNOLOGY (ERDT)",
+        "category": "Graduate Scholarship",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [
+                "Master's",
+                "Doctorate"
+            ],
+            "course_keywords": [
+                "engineering and allied fields"
+            ],
+            "region": "any"
+        },
+        "benefits": "Tuition & other school fees; Master’s: ₱25,000 living allowance; Doctoral: ₱33,000 living allowance; Master’s: ₱5,000 book allowance; Doctoral: ₱10,000 book allowance; Transportation Allowance (for those outside NCL); Master’s: ₱30,000 research dissemination grant; Doctoral: ₱60,000 research dissemination grant; Master’s: ₱60,000 thesis/dissertation grant; Doctoral: ₱120,000 thesis/dissertation grant; Annual Group Health and Accident Insurance",
+        "requirements": [
+            "Pursue master's and doctoral studies in engineering and allied fields at any of the eight delivering member-universities of the ERDT consortium: Ateneo de Manila University (ADMU), Central Luzon State University (CLSU), De La Salle University (DLSU), Mapua University (MU), Mindanao State University-Iligan Institute of Technology (MSU-IIT), University of the Philippines Diliman (UPD), University of the Philippines Los Baños (UPLB), and University of San Carlos (USC)"
+        ],
+        "link": "https://erdt.science-scholarships.ph/"
+    },
+    {
+        "name": "ACCELERATED SCIENCE AND TECHNOLOGY HUMAN RESOURCE DEVELOPMENT PROGRAM (ASTHRDP)",
+        "category": "Graduate Scholarship",
+        "provider": "DOST-SEI",
+        "criteria": {
+            "min_gwa_percent": null,
+            "max_family_income": null,
+            "year_levels": [
+                "Master's",
+                "Doctorate"
+            ],
+            "course_keywords": [
+                "Science and Technology",
+                "DOST priority areas of study"
+            ],
+            "region": "any"
+        },
+        "benefits": "",
+        "requirements": [
+            "Eligible individuals who will fill the gaps of identified areas of science and technology",
+            "For Sandwich Program: ongoing ASTHRDP scholar in MS and PhD program who has already completed his/her academic courses in a NSC member-university and has an approved research proposal and intends to conduct part of his/her research work (thesis/dissertation) in a foreign university identified by/or deemed accepted to DOST",
+            "For Sandwich Program: The research work must be in any of the DOST priority areas of study, to be conducted for a minimum of 3 months to a maximum of 1 year"
+        ],
+        "link": "https://asthrdp.science-scholarships.ph/"
+    }
+]
