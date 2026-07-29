@@ -1,3 +1,4 @@
+import { Circle, Check, X, CircleAlert } from 'lucide-react'
 import useDocumentsStore from '../store/useDocumentsStore'
 import TopBar from '../components/layout/TopBar'
 import BottomBar from '../components/layout/BottomBar'
@@ -39,8 +40,15 @@ function useDocumentsNeeded(requirements) {
   return Array.from(found.entries()).map(([label, uploaded]) => ({ label, uploaded }))
 }
 
+const NOT_ELIGIBLE_BOX = {
+  bg: 'bg-danger-soft',
+  text: 'text-danger-text',
+  border: 'border-danger-border',
+}
+
 export default function DetailPage({ scholarship: s, onBack }) {
   const documentsNeeded = useDocumentsNeeded(s.requirements)
+  const uploadedCount = documentsNeeded.filter((d) => d.uploaded).length
 
   return (
     <div className="min-h-screen bg-bg">
@@ -95,17 +103,25 @@ export default function DetailPage({ scholarship: s, onBack }) {
           </ul>
 
           {s.status === 'not-eligible' && s.notEligibleReason && (
-            <p className="mt-4 rounded-xl bg-bg px-3.5 py-3 text-[13px] leading-relaxed text-ink-soft">
-              {s.notEligibleReason}
-            </p>
+            <div className={`mt-4 flex items-start gap-2.5 rounded-xl border px-3.5 py-3 ${NOT_ELIGIBLE_BOX.bg} ${NOT_ELIGIBLE_BOX.border}`}>
+              <CircleAlert size={16} strokeWidth={2.25} className={`mt-0.5 shrink-0 ${NOT_ELIGIBLE_BOX.text}`} />
+              <p className={`text-[13px] leading-relaxed ${NOT_ELIGIBLE_BOX.text}`}>{s.notEligibleReason}</p>
+            </div>
           )}
         </Section>
 
         <Section title="Documents You'll Likely Need">
-          <p className="mb-3 text-[13px] leading-relaxed text-ink-faint">
-            Based on this scholarship's listing — reflects what the provider is likely to ask for, not a guarantee,
-            since EaseKolar doesn't control the external application form.
-          </p>
+          <div className="mb-3 flex items-start justify-between gap-3">
+            <p className="text-[13px] leading-relaxed text-ink-faint">
+              Based on this scholarship's listing — reflects what the provider is likely to ask for, not a guarantee,
+              since EaseKolar doesn't control the external application form.
+            </p>
+            {documentsNeeded.length > 0 && (
+              <span className="shrink-0 whitespace-nowrap rounded-full bg-bg px-2.5 py-1 text-[11px] font-semibold text-ink-faint">
+                {uploadedCount}/{documentsNeeded.length}
+              </span>
+            )}
+          </div>
           {documentsNeeded.length === 0 ? (
             <p className="text-[14px] text-ink-soft">No specific document requirements were listed for this scholarship.</p>
           ) : (
@@ -114,17 +130,18 @@ export default function DetailPage({ scholarship: s, onBack }) {
                 <li key={d.label} className="flex items-center gap-2.5 text-[14px]">
                   <span
                     className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
-                      d.uploaded ? 'bg-success' : 'border-[1.5px] border-line-soft border-ink-faint/40'
+                      d.uploaded ? 'bg-success' : 'border-[1.5px] border-line-soft'
                     }`}
                   >
-                    {d.uploaded && (
-                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M20 6L9 17l-5-5" />
-                      </svg>
-                    )}
+                    {d.uploaded && <Check size={11} strokeWidth={3} className="text-white" />}
                   </span>
                   <span className={d.uploaded ? 'text-ink' : 'text-ink-soft'}>{d.label}</span>
-                  {!d.uploaded && <span className="ml-auto text-xs font-medium text-warn-text">Not uploaded</span>}
+                  {!d.uploaded && (
+                    <span className="ml-auto flex items-center gap-1 text-xs font-medium text-warn-text">
+                      <X size={12} strokeWidth={2.5} />
+                      Not uploaded
+                    </span>
+                  )}
                 </li>
               ))}
             </ul>
@@ -154,5 +171,5 @@ export default function DetailPage({ scholarship: s, onBack }) {
 }
 
 function Dot() {
-  return <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+  return <Circle size={6} strokeWidth={0} className="mt-2 shrink-0 fill-primary text-primary" />
 }

@@ -181,7 +181,7 @@ export default function ProfileWizard({ onComplete, onBack }) {
                 </div>
               </div>
 
-              <InfoBanner tone="success" title="Almost there! 🎉">
+              <InfoBanner tone="success" title="Almost there!">
                 Next, you'll upload your report card so we can verify your GWA — after that, your results are ready
                 immediately.
               </InfoBanner>

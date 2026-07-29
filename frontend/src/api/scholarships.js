@@ -21,7 +21,7 @@ export async function extractAndMatch({ reportCard, optionalDocuments = {}, over
   const { data } = await apiClient.post('/find/', formData, {
     headers: { 'Content-Type': 'multipart/form-data' },
   })
-
+  console.log('API response:', data) // Debugging: log the API response
   return data
 }
 

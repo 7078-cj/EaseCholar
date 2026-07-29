@@ -4,9 +4,7 @@ const CONFIG = {
     text: 'text-success-text',
     border: 'border-success-border',
     label: 'Eligible',
-    icon: (
-      <path d="M20 6L9 17l-5-5" />
-    ),
+    icon: <path d="M20 6L9 17l-5-5" />,
   },
   missing: {
     bg: 'bg-warn-soft',
@@ -21,9 +19,9 @@ const CONFIG = {
     ),
   },
   'not-eligible': {
-    bg: 'bg-bg',
-    text: 'text-ink-soft',
-    border: 'border-line',
+    bg: 'bg-danger-soft',
+    text: 'text-danger-text',
+    border: 'border-danger-border',
     label: 'Not Eligible',
     icon: <path d="M18 6L6 18M6 6l12 12" />,
   },
