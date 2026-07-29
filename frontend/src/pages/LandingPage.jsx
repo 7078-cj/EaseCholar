@@ -88,10 +88,11 @@ export default function LandingPage({ onStart }) {
             <img
               src="/icon.png"
               alt="EaseScholar"
-              className="h-8 w-8 object-contain"
+              className="h-9 w-9 object-contain"
             />
-            <span className="font-display text-lg font-bold tracking-tight text-ink">
-              EaseKolar
+            <span className="font-display text-lg font-bold tracking-tight">
+              <span className="text-blue-900">Ease</span>
+              <span className="text-yellow-500">Kolar</span>
             </span>
           </a>
 
@@ -373,10 +374,11 @@ export default function LandingPage({ onStart }) {
                 <img
                   src="/icon.png"
                   alt="EaseScholar"
-                  className="h-6 w-6 object-contain"
+                  className="h-7 w-7 object-contain"
                 />
-                <span className="font-display text-base font-bold text-ink">
-                  EaseKolar
+                <span className="font-display text-base font-bold">
+                  <span className="text-[#1F3A6D]">Ease</span>
+                  <span className="text-[#D9A72E]">Kolar</span>
                 </span>
               </div>
               <p className="mt-2 max-w-[280px] text-[12.5px] leading-relaxed text-ink-faint">
