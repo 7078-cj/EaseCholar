@@ -21,7 +21,7 @@ export default function AIMatching({ onComplete, onError }) {
   const profile = useProfileStore((s) => s.profile);
   const reportCard = useDocumentsStore((s) => s.reportCard);
   const optional = useDocumentsStore((s) => s.optional);
-  const documents = { reportCard, optional }; 
+  const documents = { reportCard, optional };
   const runMatch = useMatchStore((s) => s.runMatch);
   const apiStatus = useMatchStore((s) => s.status);
   const apiError = useMatchStore((s) => s.error);
@@ -106,21 +106,11 @@ export default function AIMatching({ onComplete, onError }) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-bg px-6 py-10">
       <div className="mb-12 flex items-center gap-2.5">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary-dark">
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="white"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-            <path d="M6 12v5c3 3 9 3 12 0v-5" />
-          </svg>
-        </div>
+        <img
+          src="/icon.png"
+          alt="EaseScholar"
+          className="h-8 w-8 object-contain"
+        />
         <span className="font-display text-xl font-bold text-ink">
           EaseKolar
         </span>

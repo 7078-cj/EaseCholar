@@ -8,8 +8,8 @@ const NAV_LINKS = [
 
 const FEATURES = [
   {
-    title: 'EaseScholar Matching',
-    desc: 'Instantly compares your profile with scholarship requirements to help you discover opportunities you are eligible for.',
+    title: "EaseScholar Matching",
+    desc: "Instantly compares your profile with scholarship requirements to help you discover opportunities you are eligible for.",
     icon: (
       <>
         <path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" />
@@ -18,8 +18,8 @@ const FEATURES = [
     ),
   },
   {
-    title: 'Verified Scholarship Database',
-    desc: 'Browse updated government, university, and private scholarships in one trusted platform.',
+    title: "Verified Scholarship Database",
+    desc: "Browse updated government, university, and private scholarships in one trusted platform.",
     icon: (
       <>
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
@@ -28,8 +28,8 @@ const FEATURES = [
     ),
   },
   {
-    title: 'Eligibility Checker',
-    desc: 'Quickly see which scholarships you qualify for, what requirements you are missing, and where to apply next.',
+    title: "Eligibility Checker",
+    desc: "Quickly see which scholarships you qualify for, what requirements you are missing, and where to apply next.",
     icon: (
       <>
         <path d="M9 11l3 3L22 4" />
@@ -37,7 +37,7 @@ const FEATURES = [
       </>
     ),
   },
-]
+];
 
 const STATS = [
   { value: "500+", label: "Scholarships tracked" },
@@ -85,21 +85,11 @@ export default function LandingPage({ onStart }) {
       <header className="sticky top-0 z-40 border-b border-white/60 bg-white/70 shadow-[0_1px_0_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)] backdrop-blur-xl backdrop-saturate-150">
         <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-5">
           <a href="#top" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-dark">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="white"
-                strokeWidth="2.4"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-                <path d="M6 12v5c3 3 9 3 12 0v-5" />
-              </svg>
-            </span>
+            <img
+              src="/icon.png"
+              alt="EaseScholar"
+              className="h-8 w-8 object-contain"
+            />
             <span className="font-display text-lg font-bold tracking-tight text-ink">
               EaseKolar
             </span>
@@ -380,21 +370,11 @@ export default function LandingPage({ onStart }) {
           <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:justify-between">
             <div className="text-center sm:text-left">
               <div className="flex items-center justify-center gap-2 sm:justify-start">
-                <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-dark">
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="white"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
-                  </svg>
-                </span>
+                <img
+                  src="/icon.png"
+                  alt="EaseScholar"
+                  className="h-6 w-6 object-contain"
+                />
                 <span className="font-display text-base font-bold text-ink">
                   EaseKolar
                 </span>
